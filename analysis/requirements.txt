@@ -1,0 +1,11 @@
+# Direct dependencies of PerformanceAnalysis.ipynb.
+# Transitive packages (ipykernel, etc.) are resolved by pip automatically.
+# Versions are those used for the paper's analysis.
+
+numpy==2.3.3
+pandas==2.3.2
+matplotlib==3.10.6
+seaborn==0.13.2
+
+# Jupyter runtime to open and run the notebook.
+jupyterlab==4.4.7

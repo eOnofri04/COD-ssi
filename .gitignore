@@ -1,0 +1,18 @@
+# macOS / Python cruft
+*.DS_Store
+*__pycache__*
+*.venv
+*.ipynb_checkpoints
+
+# Working material not meant for release (paper sources, scratch, etc.)
+__*
+
+# Node
+*node_modules/
+*package-lock.json
+
+# Benchmark output written by the timing harness
+src/*.csv
+
+# Images produced by the analysis notebook
+analysis/imgs
