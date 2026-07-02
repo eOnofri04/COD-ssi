@@ -87,6 +87,7 @@ In practice, disclosing the claims of a presentation with up to 128 claims takes
 ```
 .
 ├── README.md                       # this file
+├── CHANGELOG.md                    # release history
 ├── LICENSE                         # CC BY-NC-SA 4.0
 ├── logo.png                        # project logo
 ├── sequenceDiagram.png             # end-to-end flow (paper Figure 1)
