@@ -1,0 +1,14 @@
+{
+	"maxClaims": 11,
+	"runs" : 100,
+	"mnemonic": "family dress industry stage bike shrimp replace design author amateur reopen script",
+	"disclosedClaims" : 1,
+	"CLAIM_VALUE_SIZE" : 30,
+	"OPRF":{
+		"H":"sha3-512",
+		"NonceLength": 1024,
+		"E":"aes-256-gcm",
+		"ivLength":96,
+		"EkeyLength":256
+	}
+}

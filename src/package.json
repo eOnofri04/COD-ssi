@@ -1,0 +1,34 @@
+{
+    "type": "module",
+    "description": "COD-SSI proof of concept: oblivious selective disclosure for SSI.",
+    "scripts": {
+        "demo": "node demo.js",
+        "install:harness": "npm install --no-save @mattrglobal/bbs-signatures@^1.1.0 bip39@^3.1.0 did-jwt@^7.1.0 did-jwt-vc@^3.1.4 did-resolver@^4.1.0 ethereumjs-wallet@^0.6.5 ethers@^5.5.3 ethr-did@^2.3.10 ethr-did-resolver@^8.0.0 ganache@^7.8.0 keccak256@^1.0.6 merkle-patricia-tree@^4.2.4 merkletreejs@^0.3.10 sha3@^2.1.4 truffle@^5.8.4 web3-providers-http@^1.9.0 zlib@^1.0.5",
+        "ganache": "ganache -m \"family dress industry stage bike shrimp replace design author amateur reopen script\" -p 9545",
+        "deployRegistry": "truffle migrate --network development --config truffle-config.cjs ",
+        "run": "node main.js"
+    },
+    "dependencies": {
+        "@noble/curves": "^1.9.4"
+    },
+    "//harnessDependencies": "Packages required ONLY by the benchmarking harness (main.js) and the local did:ethr chain. They are heavy and are NOT installed by `npm install` -- run `npm run install:harness` to fetch them on demand. Pinned here for reference.",
+    "harnessDependencies": {
+        "@mattrglobal/bbs-signatures": "^1.1.0",
+        "bip39": "^3.1.0",
+        "did-jwt": "^7.1.0",
+        "did-jwt-vc": "^3.1.4",
+        "did-resolver": "^4.1.0",
+        "ethereumjs-wallet": "^0.6.5",
+        "ethers": "^5.5.3",
+        "ethr-did": "^2.3.10",
+        "ethr-did-resolver": "^8.0.0",
+        "ganache": "^7.8.0",
+        "keccak256": "^1.0.6",
+        "merkle-patricia-tree": "^4.2.4",
+        "merkletreejs": "^0.3.10",
+        "sha3": "^2.1.4",
+        "truffle": "^5.8.4",
+        "web3-providers-http": "^1.9.0",
+        "zlib": "^1.0.5"
+    }
+}
