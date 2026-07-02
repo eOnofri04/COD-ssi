@@ -246,7 +246,7 @@ The conference proceedings reference will be completed once published; in the me
   booktitle = {Proceedings of the European Symposium on Research in Computer
                Security (ESORICS)},
   year      = {2026},
-  note      = {To appear. TODO: pages, volume, publisher once available}
+  note      = {To appear}
 }
 
 @misc{onofri2026codssi_arxiv,
@@ -276,6 +276,6 @@ This work was partially supported by the SERICS project (PE00000014) under the M
 
 For bug reports, questions about the prototype or the data, or collaboration enquiries, please contact:
 
-**Elia Onofri** — `elia[dot]onofri[at]kaust[dot]edu[dot]sa`
-Cybersecurity Research and Innovation Laboratory (CRI-Lab)
+**Elia Onofri** — `elia[dot]onofri[at]kaust[dot]edu[dot]sa`  
+Cybersecurity Research and Innovation Laboratory (CRI-Lab)  
 King Abdullah University of Science and Technology (KAUST), Saudi Arabia
