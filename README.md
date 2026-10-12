@@ -4,8 +4,8 @@
 
 # COD-SSI: Enforcing Mutual Privacy for Credential Oblivious Disclosure in Self Sovereign Identity
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv:2604.10685-b31b1b)](https://arxiv.org/abs/2604.10685)
-[![Conference](https://img.shields.io/badge/Conference-ESORICS_2026-1f6feb)](https://esorics2026.org)
+[![Paper](https://img.shields.io/badge/DOI-10.1007/978--3--032--38695--3__11-1f6feb)](https://doi.org/10.1007/978-3-032-38695-3_11)
+[![Conference](https://img.shields.io/badge/Conference-ESORICS_2026-b31b1b)](https://esorics2026.org)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](LICENSE)
 
 This is the companion repository for the paper:
